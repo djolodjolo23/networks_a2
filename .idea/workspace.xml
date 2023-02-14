@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81810d06-f53e-4168-be23-ba41cc6506d5" name="Changes" comment="Functioning webserver, printing &quot;hello world at the moment&quot;.">
+    <list default="true" id="81810d06-f53e-4168-be23-ba41cc6506d5" name="Changes" comment="Images are returned to the client on the localhost:8888">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Server.java" afterDir="false" />
     </list>
@@ -63,7 +63,7 @@
       <updated>1676326766321</updated>
       <workItem from="1676326767848" duration="2391000" />
       <workItem from="1676361277237" duration="1250000" />
-      <workItem from="1676389032235" duration="3111000" />
+      <workItem from="1676389032235" duration="4583000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1676326805628</created>
@@ -79,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676393041353</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Images are returned to the client on the localhost:8888">
+      <created>1676394108861</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676394108861</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +106,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit." />
     <MESSAGE value="Functioning webserver, printing &quot;hello world at the moment&quot;." />
-    <option name="LAST_COMMIT_MESSAGE" value="Functioning webserver, printing &quot;hello world at the moment&quot;." />
+    <MESSAGE value="Images are returned to the client on the localhost:8888" />
+    <option name="LAST_COMMIT_MESSAGE" value="Images are returned to the client on the localhost:8888" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/assignment_2$Server.ic" NAME="Server Coverage Results" MODIFIED="1676394645005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
