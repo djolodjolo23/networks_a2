@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81810d06-f53e-4168-be23-ba41cc6506d5" name="Changes" comment="Initial commit.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ClientSocketA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ClientSocketB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="81810d06-f53e-4168-be23-ba41cc6506d5" name="Changes" comment="Functioning webserver, printing &quot;hello world at the moment&quot;.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Server.java" afterDir="false" />
     </list>
@@ -68,7 +63,7 @@
       <updated>1676326766321</updated>
       <workItem from="1676326767848" duration="2391000" />
       <workItem from="1676361277237" duration="1250000" />
-      <workItem from="1676389032235" duration="2227000" />
+      <workItem from="1676389032235" duration="3111000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1676326805628</created>
@@ -77,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676326805628</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Functioning webserver, printing &quot;hello world at the moment&quot;.">
+      <created>1676393041353</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676393041353</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +98,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit." />
+    <MESSAGE value="Functioning webserver, printing &quot;hello world at the moment&quot;." />
+    <option name="LAST_COMMIT_MESSAGE" value="Functioning webserver, printing &quot;hello world at the moment&quot;." />
   </component>
 </project>
