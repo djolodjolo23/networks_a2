@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81810d06-f53e-4168-be23-ba41cc6506d5" name="Changes" comment="Images are returned to the client on the localhost:8888">
+    <list default="true" id="81810d06-f53e-4168-be23-ba41cc6506d5" name="Changes" comment="Routing works fine for now, /stuff.html returns the picture">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Server.java" afterDir="false" />
     </list>
@@ -49,10 +50,24 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="assignment_2.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,7 +78,7 @@
       <updated>1676326766321</updated>
       <workItem from="1676326767848" duration="2391000" />
       <workItem from="1676361277237" duration="1250000" />
-      <workItem from="1676389032235" duration="4583000" />
+      <workItem from="1676389032235" duration="6296000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1676326805628</created>
@@ -86,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676394108861</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Routing works fine for now, /stuff.html returns the picture">
+      <created>1676395445283</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676395445283</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,7 +129,8 @@
     <MESSAGE value="Initial commit." />
     <MESSAGE value="Functioning webserver, printing &quot;hello world at the moment&quot;." />
     <MESSAGE value="Images are returned to the client on the localhost:8888" />
-    <option name="LAST_COMMIT_MESSAGE" value="Images are returned to the client on the localhost:8888" />
+    <MESSAGE value="Routing works fine for now, /stuff.html returns the picture" />
+    <option name="LAST_COMMIT_MESSAGE" value="Routing works fine for now, /stuff.html returns the picture" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/assignment_2$Server.ic" NAME="Server Coverage Results" MODIFIED="1676394645005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

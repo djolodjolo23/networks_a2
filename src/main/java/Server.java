@@ -1,7 +1,6 @@
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.net.ServerSocket;
@@ -9,10 +8,11 @@ import java.net.Socket;
 
 public class Server {
 
-  private static final int port = 8888;
 
-  public static void main(String[] args) throws IOException {
-
+  public Server(int port) throws IOException {
+    run(port);
+  }
+  private void run(int port) throws IOException {
     try (ServerSocket serverSocket = new ServerSocket(port)) {
       // ready to receive messages
       System.out.println("Server has started.\nListening on port " + port);
@@ -49,7 +49,7 @@ public class Server {
           // Get the second thing 'resource' from the first line
           String resource = firstline.split(" ")[1];
           if (resource.equals("/stuff.html")) {
-            FileInputStream image = new FileInputStream("joke.png");
+            FileInputStream image = new FileInputStream("public/joke.png");
             System.out.println(image);
             OutputStream clientOutput = client.getOutputStream();
             clientOutput.write(("HTTP/1.1 200 OK\r\n").getBytes());
@@ -70,7 +70,7 @@ public class Server {
             clientOutput.write(("What are you looking for???????").getBytes());
             clientOutput.flush();
           }
-         //System.out.println(resource);
+          //System.out.println(resource);
 
 
 
@@ -81,23 +81,24 @@ public class Server {
           // turn the image into bytes???
           // Set the ContentType?
           /**
-          FileInputStream image = new FileInputStream("joke.png");
-          System.out.println(image);
+           FileInputStream image = new FileInputStream("joke.png");
+           System.out.println(image);
 
-          OutputStream clientOutput = client.getOutputStream();
-          clientOutput.write(("HTTP/1.1 200 OK\r\n").getBytes());
-          clientOutput.write(("\r\n").getBytes());
-          clientOutput.write(image.readAllBytes());
-          clientOutput.flush();
+           OutputStream clientOutput = client.getOutputStream();
+           clientOutput.write(("HTTP/1.1 200 OK\r\n").getBytes());
+           clientOutput.write(("\r\n").getBytes());
+           clientOutput.write(image.readAllBytes());
+           clientOutput.flush();
            */
 
 
-
-
           client.close();
+        } catch (IOException e) {
+          throw new RuntimeException(e);
         }
       }
     }
   }
+
 
 }
