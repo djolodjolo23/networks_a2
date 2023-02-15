@@ -4,9 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81810d06-f53e-4168-be23-ba41cc6506d5" name="Changes" comment="Routing works fine for now, /stuff.html returns the picture">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+    <list default="true" id="81810d06-f53e-4168-be23-ba41cc6506d5" name="Changes" comment="Server moved to a different class.">
+      <change afterPath="$PROJECT_DIR$/ServerMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FolderChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/IntegerChecker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/IntegerChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ServerMain.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ClientHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ClientSocketA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ClientSocketB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +32,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -42,6 +52,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/dimit/Downloads/Operating System Assignment 11/Operating System Assignment 1_tareq",
@@ -54,6 +65,12 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dimit\OneDrive\Documents\lnu courses\1DV701-computer_networks\assignment_2\src\main\java" />
+      <recent name="C:\Users\dimit\OneDrive\Documents\lnu courses\1DV701-computer_networks\assignment_2" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -78,7 +95,8 @@
       <updated>1676326766321</updated>
       <workItem from="1676326767848" duration="2391000" />
       <workItem from="1676361277237" duration="1250000" />
-      <workItem from="1676389032235" duration="6296000" />
+      <workItem from="1676389032235" duration="7490000" />
+      <workItem from="1676458681713" duration="4603000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1676326805628</created>
@@ -108,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676395445283</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Server moved to a different class.">
+      <created>1676397386227</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676397386227</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,11 +151,13 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit." />
     <MESSAGE value="Functioning webserver, printing &quot;hello world at the moment&quot;." />
     <MESSAGE value="Images are returned to the client on the localhost:8888" />
     <MESSAGE value="Routing works fine for now, /stuff.html returns the picture" />
-    <option name="LAST_COMMIT_MESSAGE" value="Routing works fine for now, /stuff.html returns the picture" />
+    <MESSAGE value="Server moved to a different class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Server moved to a different class." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/assignment_2$Server.ic" NAME="Server Coverage Results" MODIFIED="1676394645005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
