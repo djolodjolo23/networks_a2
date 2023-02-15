@@ -4,19 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81810d06-f53e-4168-be23-ba41cc6506d5" name="Changes" comment="Server moved to a different class.">
-      <change afterPath="$PROJECT_DIR$/ServerMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FolderChecker.java" afterDir="false" />
+    <list default="true" id="81810d06-f53e-4168-be23-ba41cc6506d5" name="Changes" comment="Made a progress with reading the program arguments from the command line. Server can be now started directly from the command line.">
       <change afterPath="$PROJECT_DIR$/src/main/java/IntegerChecker.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/IntegerChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ServerMain.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ClientHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ClientSocketA.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ClientSocketB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/ServerMain.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ServerMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ServerMain.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,11 +62,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\dimit\OneDrive\Documents\lnu courses\1DV701-computer_networks\assignment_2\src\main\java" />
       <recent name="C:\Users\dimit\OneDrive\Documents\lnu courses\1DV701-computer_networks\assignment_2" />
+      <recent name="C:\Users\dimit\OneDrive\Documents\lnu courses\1DV701-computer_networks\assignment_2\src\main\java" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="assignment_2.main" />
@@ -79,8 +74,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ServerMain" />
+      <module name="assignment_2.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ServerMain" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -96,7 +99,7 @@
       <workItem from="1676326767848" duration="2391000" />
       <workItem from="1676361277237" duration="1250000" />
       <workItem from="1676389032235" duration="7490000" />
-      <workItem from="1676458681713" duration="4603000" />
+      <workItem from="1676458681713" duration="7131000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1676326805628</created>
@@ -133,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676397386227</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Made a progress with reading the program arguments from the command line. Server can be now started directly from the command line.">
+      <created>1676463467391</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676463467391</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,7 +167,8 @@
     <MESSAGE value="Images are returned to the client on the localhost:8888" />
     <MESSAGE value="Routing works fine for now, /stuff.html returns the picture" />
     <MESSAGE value="Server moved to a different class." />
-    <option name="LAST_COMMIT_MESSAGE" value="Server moved to a different class." />
+    <MESSAGE value="Made a progress with reading the program arguments from the command line. Server can be now started directly from the command line." />
+    <option name="LAST_COMMIT_MESSAGE" value="Made a progress with reading the program arguments from the command line. Server can be now started directly from the command line." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/assignment_2$Server.ic" NAME="Server Coverage Results" MODIFIED="1676394645005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

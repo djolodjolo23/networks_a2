@@ -1,14 +1,17 @@
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.net.URL;
 import java.util.Objects;
 
 
 class ServerMain {
+
 
 
 
@@ -29,7 +32,11 @@ class ServerMain {
       try (ServerSocket serverSocket = new ServerSocket(Integer.parseInt(args[0]))) {
 
         // ready to receive messages
-        System.out.println("Server has started.\nListening on port " + args[0]);
+        System.out.println("Server has succesfully started. Listening on the port " + args[0]);
+        URL url = ServerMain.class.getResource("/public");
+        assert url != null;
+        String path = url.getPath();
+        System.out.println("Detailed file path: " + path);
         while (true) {
           // client that's accepted
           // can accept multiple connections since in while(true) loop

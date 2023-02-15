@@ -1,28 +1,25 @@
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.util.Scanner;
+import java.net.URL;
 
-public class Server implements IntegerChecker{
+public class Server {
 
 
   public Server(int port) throws IOException {
-
+    run(port);
   }
-  private void run(String[] args) throws IOException {
-    try (ServerSocket serverSocket = new ServerSocket(Integer.parseInt(args[0]))) {
-      if (args.length != 2) {
-        System.err.println("There must be two program arguments, the listening port and a relative folder path");
-        System.exit(1);
-      } else if (IntegerChecker.integerCheck(args[0])) {
-        System.err.println("error");
-      }
+  private void run(int port) throws IOException {
+    try (ServerSocket serverSocket = new ServerSocket(port)) {
       // ready to receive messages
-      System.out.println("Server has started.\nListening on port " + args[0]);
+      System.out.println("Server has succesfully started. Listening on the port " + port);
+      String projectPath = System.getenv("public");
+      System.out.println(projectPath);
       while (true) {
         // client that's accepted
         // can accept multiple connections since in while(true) loop
